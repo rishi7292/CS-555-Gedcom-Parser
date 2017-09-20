@@ -1,0 +1,65 @@
+INDIVIDUAL TABLE
+       ID                  NAME GENDER     BIRTHDAY  AGE  ALIVE        DEATH  \
+0    @I1@       Richard /Stark/      M  20 JAN 1957   43  False  19 MAR 2000   
+1    @I2@        Lyarra /Stark/      F  14 APR 1960   40  False   5 FEB 2001   
+2    @I3@        Eddard /Stark/      M  15 JAN 1978   35  False   7 MAR 2013   
+3    @I4@       Brandon /Stark/      M  20 MAR 1979   25  False   6 JUN 2004   
+4    @I5@        Benjen /Stark/      M  10 MAY 1980   37   True           NA   
+5    @I6@        Lyanna /Stark/      F  30 JUL 1981   23  False   7 SEP 2004   
+6    @I7@   Rhaegar /Targaryen/      M   9 APR 1978   26  False  29 AUG 2004   
+7    @I8@            Jon /Snow/      M   7 SEP 2004   13   True           NA   
+8    @I9@       Catelyn /Tully/      F  17 MAY 1979   34  False   7 JAN 2014   
+9   @I10@          Robb /Stark/      M  18 MAR 1986   27  False   7 JAN 2014   
+10  @I11@       Talisa /Maegyr/      F  22 AUG 1990   23  False   7 JAN 2014   
+11  @I12@         Sansa /Stark/      F   7 MAY 1987   30   True           NA   
+12  @I13@          Arya /Stark/      F   9 JUN 1989   28   True           NA   
+13  @I14@          Bran /Stark/      M  12 AUG 1990   27   True           NA   
+14  @I15@        Rickon /Stark/      M  10 OCT 1993   21  False   5 FEB 2015   
+15  @I16@   Rhaenys /Targaryen/      F   3 MAR 1996    6  False   3 MAR 2002   
+16  @I17@        Elia /Martell/      F  13 APR 1980   19  False   3 MAR 2000   
+17  @I18@     Aegon /Targaryen/      M   2 MAY 1998    3  False   3 MAR 2002   
+18  @I19@     Aerys /Targaryen/      M   8 JUN 1950   29  False  14 FEB 1980   
+19  @I20@   Rhaella /Targaryen/      F  17 MAR 1955   25  False   9 MAY 1980   
+20  @I21@   Viserys /Targaryen/      M  14 FEB 1980   28  False  11 AUG 2008   
+21  @I22@  Daenerys /Targaryen/      F  14 FEB 1980   37   True           NA   
+
+   CHILD SPOUSE  
+0     NA   @F1@  
+1     NA   @F1@  
+2   @F1@   @F2@  
+3   @F1@     NA  
+4   @F1@     NA  
+5   @F1@   @F3@  
+6   @F4@   @F6@  
+7   @F3@     NA  
+8     NA   @F2@  
+9   @F2@   @F5@  
+10    NA   @F5@  
+11  @F2@     NA  
+12  @F2@     NA  
+13  @F2@     NA  
+14  @F2@     NA  
+15  @F6@     NA  
+16    NA   @F6@  
+17  @F6@     NA  
+18    NA   @F4@  
+19    NA   @F4@  
+20  @F4@     NA  
+21  @F4@     NA  
+
+FAMILY TABLE
+     ID      MARRIED DIVORCED HUSBAND_ID         HUSBAND_NAME WIFE_ID  \
+0  @F1@   4 JUL 1976       NA       @I1@      Richard /Stark/    @I2@   
+1  @F2@  20 FEB 1985       NA       @I3@       Eddard /Stark/    @I9@   
+2  @F3@   7 MAY 2000       NA       @I7@  Rhaegar /Targaryen/    @I6@   
+3  @F6@   2 FEB 1995       NA       @I7@  Rhaegar /Targaryen/   @I17@   
+4  @F4@  14 NOV 1970       NA      @I19@    Aerys /Targaryen/   @I20@   
+5  @F5@   3 DEC 2013       NA      @I10@         Robb /Stark/   @I11@   
+
+             WIFE_NAME                         CHILDREN  
+0       Lyarra /Stark/            {@I3@,@I4@,@I5@,@I6@}  
+1      Catelyn /Tully/  {@I10@,@I12@,@I13@,@I14@,@I15@}  
+2       Lyanna /Stark/                           {@I8@}  
+3       Elia /Martell/                    {@I16@,@I18@}  
+4  Rhaella /Targaryen/               {@I7@,@I21@,@I22@}  
+5      Talisa /Maegyr/                               NA  
