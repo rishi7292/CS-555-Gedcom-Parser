@@ -6,5 +6,5 @@ US21	Correct gender for role	pk
 US16	Male last names	pk
 US13	Siblings spacing	ss
 US22	Unique IDs	ss
-US02	Birth before marriage	rm -- DONE
-US03	Birth before death	rm  -- DONE
+US02	Birth before marriage --  RM  --  DONE
+US03	Birth before death  --  RM  --  DONE
