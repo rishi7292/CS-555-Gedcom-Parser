@@ -1,0 +1,31 @@
+import unittest
+import US22
+import re
+
+def checkIdFormat(id):
+    if(re.match(r'(@I[0-9]+@)|(@F[0-9]+@)',id)):
+        return "In proper format"
+    else:
+        return "Improper Id format"
+
+class US13Test(unittest.TestCase):
+
+    def test_isINDINULL(self):
+        self.assertIsNone(US22.getIdFromINDI("@I100@"))
+    
+    def test_isFAMNULL(self):
+        self.assertIsNone(US22.getIdFromFAM("@F100@"))
+
+    def test_isIndiUnique(self):
+        self.assertTrue(US22.isINDIUnique())
+    
+    def test_isFamUnique(self):
+        self.assertTrue(US22.isFamUnique())
+    
+    def test_IDFormat(self):
+        self.assertEqual(checkIdFormat(US22.INDI_ID[4]),"In proper format")
+        self.assertEqual(checkIdFormat(US22.FAM_ID[4]),"In proper format")
+
+
+if __name__ == '__main__':
+    unittest.main()
