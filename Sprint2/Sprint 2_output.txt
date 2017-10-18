@@ -1,0 +1,156 @@
+INDIVIDUAL TABLE
+       ID                   NAME GENDER     BIRTHDAY  AGE  ALIVE        DEATH  \
+0    @I1@        Richard /Stark/      M  20 JAN 1957   43  False  19 MAR 2000   
+1    @I2@         Lyarra /Stark/      F  14 APR 1960   40  False   5 FEB 2001   
+2    @I3@         Eddard /Stark/      M  15 JAN 1978   35  False   7 MAR 2013   
+3    @I4@        Catelyn /Tully/      F  17 MAY 1979   34  False   7 JAN 2014   
+4    @I5@        Brandon /Stark/      M  20 MAR 1979   25  False   6 JUN 2004   
+5    @I6@         Benjen /Stark/      M  10 MAY 1980   37   True           NA   
+6    @I7@         Lyanna /Stark/      F  13 APR 1980   24  False   7 SEP 2004   
+7    @I8@    Rhaegar /Targaryen/      M   9 APR 1978   26  False  29 AUG 2004   
+8    @I9@             Jon /Snow/      M   7 SEP 2004   13   True           NA   
+9   @I10@           Robb /Stark/      M  18 MAR 1986   27  False   7 JAN 2014   
+10  @I11@        Talisa /Maegyr/      F  22 AUG 1990   23  False   7 JAN 2014   
+11  @I12@          Sansa /Stark/      F   7 MAY 1987   30   True           NA   
+12  @I13@           Arya /Stark/      F   9 JUN 1989   28   True           NA   
+13  @I14@           Bran /Stark/      M  12 AUG 1990   27   True           NA   
+14  @I15@         Rickon /Stark/      M  10 OCT 1993   21  False   5 FEB 2015   
+15  @I16@    Rhaenys /Targaryen/      F   3 MAR 1996    6  False   3 MAR 2002   
+16  @I17@       Martha /Martell/      F  13 APR 1980   19  False   3 MAR 2000   
+17  @I18@      Aegon /Targaryen/      M   2 MAY 1998    3  False   3 MAR 2002   
+18  @I19@      Aerys /Targaryen/      M   8 JUN 1950   29  False  14 FEB 1980   
+19  @I20@    Rhaella /Targaryen/      F  17 MAR 1955   25  False   9 MAY 1980   
+20  @I21@    Viserys /Targaryen/      M  14 FEB 1980   28  False  11 AUG 2008   
+21  @I22@   Daenerys /Targaryen/      F  14 FEB 1980   37   True           NA   
+22  @I23@    Viserys /Targaryen/      M  14 FEB 1980   37   True           NA   
+23  @I24@         Martha /Tally/      M   3 AUG 1996   21   True           NA   
+24  @I25@  Ramsay (US-03) /Snow/      M   1 FEB 2005   -1  False   1 JAN 2005   
+25  @I26@          Rishi /Stark/      M  10 NOV 2045  -29   True           NA   
+26  @I27@         Pranit /Stark/      M  18 OCT 1810  206  False  16 OCT 2017   
+27  @I28@       Samantha /Stark/      F  10 JUN 1840  177   True           NA   
+28  @I29@     Tamara /Targaryen/      F   4 MAR 1980   30  False  10 OCT 2010   
+29  @I30@     Jonnah /Targaryen/      M  10 JAN 1978   37  False  15 NOV 2015   
+30  @I31@      Shreyas_1 /Stark/      M   3 APR 2000   17   True           NA   
+31  @I32@      Shreyas_2 /Stark/      M   3 APR 2000   17   True           NA   
+32  @I33@      Shreyas_3 /Stark/      M   3 APR 2000   17   True           NA   
+33  @I34@      Shreyas_4 /Stark/      M   3 APR 2000   17   True           NA   
+34  @I35@      Shreyas_5 /Stark/      M   3 APR 2000   17   True           NA   
+35  @I36@        Racheal /Stark/      F   3 MAR 1980   37   True           NA   
+36  @I37@         Monica /Stark/      F   8 MAY 2000   17   True           NA   
+
+   CHILD       SPOUSE  
+0     NA         @F1@  
+1     NA         @F1@  
+2   @F1@         @F2@  
+3     NA         @F2@  
+4   @F1@         @F3@  
+5   @F1@         @F4@  
+6   @F1@         @F5@  
+7   @F7@    @F5@,@F6@  
+8   @F5@         @F8@  
+9   @F2@         @F9@  
+10    NA         @F9@  
+11  @F2@           NA  
+12  @F2@           NA  
+13  @F2@           NA  
+14  @F2@           NA  
+15  @F6@           NA  
+16    NA         @F6@  
+17  @F6@           NA  
+18    NA         @F7@  
+19    NA         @F7@  
+20  @F7@           NA  
+21  @F7@           NA  
+22  @F7@        @F10@  
+23    NA         @F3@  
+24  @F5@           NA  
+25  @F1@           NA  
+26  @F2@           NA  
+27  @F1@           NA  
+28    NA  @F10@,@F11@  
+29    NA        @F11@  
+30  @F2@           NA  
+31  @F2@           NA  
+32  @F2@           NA  
+33  @F2@           NA  
+34  @F2@           NA  
+35    NA         @F4@  
+36  @F4@         @F8@  
+FAMILY TABLE
+       ID      MARRIED DIVORCED HUSBAND_ID         HUSBAND_NAME WIFE_ID  \
+0    @F1@   4 JUL 1976       NA       @I1@      Richard /Stark/    @I2@   
+1    @F2@  20 FEB 1985       NA       @I3@       Eddard /Stark/    @I4@   
+2    @F3@   9 FEB 1995       NA      @I24@       Martha /Tally/    @I5@   
+3    @F4@           NA       NA       @I6@       Benjen /Stark/   @I36@   
+4    @F5@   7 MAY 2000       NA       @I8@  Rhaegar /Targaryen/    @I7@   
+5    @F6@   2 FEB 1995       NA       @I8@  Rhaegar /Targaryen/   @I17@   
+6    @F7@  14 NOV 1970       NA      @I19@    Aerys /Targaryen/   @I20@   
+7    @F8@   3 MAY 2016       NA       @I9@           Jon /Snow/   @I37@   
+8    @F9@   3 DEC 2013       NA      @I10@         Robb /Stark/   @I11@   
+9   @F10@   6 JUN 2000       NA      @I23@  Viserys /Targaryen/   @I29@   
+10  @F11@   3 MAY 1998       NA      @I30@   Jonnah /Targaryen/   @I29@   
+
+              WIFE_NAME                                           CHILDREN  
+0        Lyarra /Stark/                  {@I3@,@I5@,@I6@,@I7@,@I26@,@I28@}  
+1       Catelyn /Tully/  {@I10@,@I12@,@I13@,@I14@,@I15@,@I27@,@I31@,@I3...  
+2       Brandon /Stark/                                                 NA  
+3       Racheal /Stark/                                            {@I37@}  
+4        Lyanna /Stark/                                       {@I9@,@I25@}  
+5      Martha /Martell/                                      {@I16@,@I18@}  
+6   Rhaella /Targaryen/                           {@I8@,@I21@,@I22@,@I23@}  
+7        Monica /Stark/                                                 NA  
+8       Talisa /Maegyr/                                                 NA  
+9    Tamara /Targaryen/                                                 NA  
+10   Tamara /Targaryen/                                                 NA  
+ERROR: US22: Duplicate IDs found in the GEDCOM
+ERROR: US13: @I3@,@I28@,@I5@,@I6@,@I7@,@I26@ from @F1@ have invalid spacing
+ERROR: US13: @I10@,@I27@,@I12@,@I13@,@I14@,@I15@,@I31@,@I32@,@I33@,@I34@,@I35@ from @F2@ have invalid spacing
+ERROR: US13: @I21@,@I22@,@I23@ from @F7@ have invalid spacing
+ERROR: US14:  @F2@ has 11 siblings from which 5 have same birth day
+ERROR: US19: IDs- @I9@,@I37@  are First cousins and married!
+ERROR:  US16: Ramsay (US-03) does not have the same family name Targaryen
+ERROR:  US21: Wife Brandon Stark is not female
+ERROR: US07: Pranit Stark who is dead does not have valid age
+ERROR: US07: Samantha Stark who is alive has birthdate less than 150 years from now
+ERROR: US36: Pranit Stark died in the last 30 days
+ERROR:  US25: The family id @F3@ has no child
+ERROR:  US25: The family id @F4@ has no child
+ERROR:  US25: The family id @F5@ has no child
+ERROR:  US25: The family id @F6@ has no child
+ERROR:  US25: The family id @F7@ has no child
+ERROR:  US25: The family id @F8@ has no child
+ERROR:  US25: The family id @F9@ has no child
+ERROR:  US25: The family id @F10@ has no child
+ERROR:  US25: The family id @F11@ has no child
+US29: Richard Stark is dead
+US29: Lyarra Stark is dead
+US29: Eddard Stark is dead
+US29: Catelyn Tully is dead
+US29: Brandon Stark is dead
+US29: Lyanna Stark is dead
+US29: Rhaegar Targaryen is dead
+US29: Robb Stark is dead
+US29: Talisa Maegyr is dead
+US29: Rickon Stark is dead
+US29: Rhaenys Targaryen is dead
+US29: Martha Martell is dead
+US29: Aegon Targaryen is dead
+US29: Aerys Targaryen is dead
+US29: Rhaella Targaryen is dead
+US29: Viserys Targaryen is dead
+US29: Ramsay US03 Snow is dead
+US29: Pranit Stark is dead
+US29: Tamara Targaryen is dead
+US29: Jonnah Targaryen is dead
+ERROR: US10:  @I3@  is under 14 years of age when he was married
+ERROR: US10:  @I9@  is under 14 years of age when he was married
+ERROR: US10:  @I4@  is under 14 years of age when she was married
+ERROR: US11: ID- @I29@ has bigamous relationship!
+ERROR: US03: Ramsay (US-03)  Snow has an invalid age since birthday is after death day
+ERROR: US03: Rishi  Stark has an invalid age since birthday is after death day
+ERROR: US02: Martha  Tally  is born after their own marriage which is not possible 
+ERROR: US01: 10 NOV 2045 is after the current date 
+ERROR: US12: Eddard  Stark  or Catelyn  Tully  have a child either more than 60 years younger than mother or more than 80 years younger than father
+ERROR: US12: Richard  Stark  or Lyarra  Stark  have a child either more than 60 years younger than mother or more than 80 years younger than father
+
+Process finished with exit code 0
