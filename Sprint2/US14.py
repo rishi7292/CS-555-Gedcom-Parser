@@ -55,6 +55,7 @@ def noOfSiblings(id):
         siblings = formatChildrenData(row[0])
 
     return len(siblings)
+ 
 
 
 
