@@ -1,0 +1,215 @@
+INDIVIDUAL TABLE
+       ID                   NAME GENDER     BIRTHDAY  AGE  ALIVE        DEATH  \
+0    @I1@        Richard /Stark/      M  20 JAN 1957   43  False  19 MAR 2000   
+1    @I2@         Lyarra /Stark/      F  14 APR 1960   40  False   5 FEB 2001   
+2    @I3@         Eddard /Stark/      M  15 JAN 1978   35  False   7 MAR 2013   
+3    @I4@        Catelyn /Tully/      F  17 MAY 1979   34  False   7 JAN 2014   
+4    @I5@        Brandon /Stark/      M  20 MAR 1979   25  False   6 JUN 2004   
+5    @I6@         Martha /Tally/      M   3 AUG 1996   21   True           NA   
+6    @I7@         Benjen /Stark/      M  10 MAY 1980   37   True           NA   
+7    @I8@        Racheal /Stark/      F   3 MAR 1980   37   True           NA   
+8    @I9@         Lyanna /Stark/      F  13 APR 1980   24  False   7 SEP 2004   
+9   @I10@    Rhaegar /Targaryen/      M   9 APR 1978   26  False  29 AUG 2004   
+10  @I11@             Jon /Snow/      M   7 SEP 2004   13   True           NA   
+11  @I12@         Monica /Stark/      F   8 MAY 2000   17   True           NA   
+12  @I13@           Robb /Stark/      M  18 MAR 1986   27  False   7 JAN 2014   
+13  @I14@        Talisa /Maegyr/      F  22 AUG 1990   23  False   7 JAN 2014   
+14  @I15@          Sansa /Stark/      F   7 MAY 1987   30   True           NA   
+15  @I16@           Arya /Stark/      F   9 JUN 1989   28   True           NA   
+16  @I17@           Bran /Stark/      M  12 AUG 1990   27   True           NA   
+17  @I18@         Rickon /Stark/      M  10 OCT 1993   21  False   5 FEB 2015   
+18  @I19@    Rhaenys /Targaryen/      F   3 MAR 1996    6  False   3 MAR 2002   
+19  @I20@    Viserys /Targaryen/      M  14 FEB 1980   28  False  11 AUG 2008   
+20  @I21@       Martha /Martell/      F  13 APR 1980   19  False   3 MAR 2000   
+21  @I22@      Aegon /Targaryen/      M   2 MAY 1998    3  False   3 MAR 2002   
+22  @I23@      Felicity /Knight/      F   3 FEB 1999   18   True           NA   
+23  @I24@      Aerys /Targaryen/      M   8 JUN 1950   29  False  14 FEB 1980   
+24  @I25@    Rhaella /Targaryen/      F  17 MAR 1955   25  False   9 MAY 1980   
+25  @I26@   Daenerys /Targaryen/      F  14 FEB 1980   37   True           NA   
+26  @I27@    Viserys /Targaryen/      M  14 FEB 1980   37   True           NA   
+27  @I28@  Ramsay (US-03) /Snow/      M   1 FEB 2005   -1  False   1 JAN 2005   
+28  @I29@          Rishi /Stark/      M  10 NOV 2045  -29   True           NA   
+29  @I30@         Pranit /Stark/      M  18 OCT 1810  206  False  16 OCT 2017   
+30  @I31@       Samantha /Stark/      F  10 JUN 1840  177   True           NA   
+31  @I32@     Tamara /Targaryen/      F   4 MAR 1980   30  False  10 OCT 2010   
+32  @I33@     Jonnah /Targaryen/      M  10 JAN 1978   37  False  15 NOV 2015   
+33  @I34@      Shreyas_1 /Stark/      M   3 APR 2000   17   True           NA   
+34  @I35@      Shreyas_2 /Stark/      M   3 APR 2000   17   True           NA   
+35  @I36@      Shreyas_3 /Stark/      M   3 APR 2000   17   True           NA   
+36  @I37@      Shreyas_4 /Stark/      M   3 APR 2000   17   True           NA   
+37  @I38@      Shreyas_5 /Stark/      M   3 APR 2000   17   True           NA   
+
+   CHILD       SPOUSE  
+0     NA         @F1@  
+1     NA         @F1@  
+2   @F1@         @F2@  
+3     NA         @F2@  
+4   @F1@         @F3@  
+5     NA         @F3@  
+6   @F1@         @F4@  
+7     NA         @F4@  
+8   @F1@         @F5@  
+9   @F7@    @F5@,@F6@  
+10  @F5@         @F8@  
+11  @F4@         @F8@  
+12  @F2@         @F9@  
+13    NA         @F9@  
+14  @F2@           NA  
+15  @F2@        @F10@  
+16  @F2@        @F10@  
+17  @F2@           NA  
+18  @F6@        @F11@  
+19  @F7@        @F11@  
+20    NA         @F6@  
+21  @F6@        @F12@  
+22    NA        @F12@  
+23    NA         @F7@  
+24    NA         @F7@  
+25  @F7@           NA  
+26  @F7@        @F13@  
+27  @F5@           NA  
+28  @F1@           NA  
+29  @F2@           NA  
+30  @F1@           NA  
+31    NA  @F13@,@F14@  
+32    NA        @F14@  
+33  @F2@           NA  
+34  @F2@           NA  
+35  @F2@           NA  
+36  @F2@           NA  
+37  @F2@           NA  
+FAMILY TABLE
+       ID      MARRIED    DIVORCED HUSBAND_ID         HUSBAND_NAME WIFE_ID  \
+0    @F1@   4 JUL 1976          NA       @I1@      Richard /Stark/    @I2@   
+1    @F2@  20 FEB 1985          NA       @I3@       Eddard /Stark/    @I4@   
+2    @F3@   9 FEB 1995          NA       @I5@      Brandon /Stark/    @I6@   
+3    @F4@           NA          NA       @I7@       Benjen /Stark/    @I8@   
+4    @F5@   7 MAY 2000          NA      @I10@  Rhaegar /Targaryen/    @I9@   
+5    @F6@   2 FEB 1995          NA      @I10@  Rhaegar /Targaryen/   @I21@   
+6    @F7@  14 NOV 1970          NA      @I24@    Aerys /Targaryen/   @I25@   
+7    @F8@   3 MAY 2016          NA      @I11@           Jon /Snow/   @I12@   
+8    @F9@   3 DEC 2013          NA      @I13@         Robb /Stark/   @I14@   
+9   @F10@  11 MAY 2004          NA      @I17@         Bran /Stark/   @I16@   
+10  @F11@   2 APR 2000          NA      @I20@  Viserys /Targaryen/   @I19@   
+11  @F12@   7 JUL 2001  5 MAY 2005      @I22@    Aegon /Targaryen/   @I23@   
+12  @F13@   6 JUN 2000          NA      @I27@  Viserys /Targaryen/   @I32@   
+13  @F14@   3 MAY 1998          NA      @I33@   Jonnah /Targaryen/   @I32@   
+
+              WIFE_NAME                                           CHILDREN  
+0        Lyarra /Stark/                  {@I3@,@I5@,@I7@,@I9@,@I29@,@I31@}  
+1       Catelyn /Tully/  {@I13@,@I15@,@I16@,@I17@,@I18@,@I30@,@I34@,@I3...  
+2        Martha /Tally/                                                 NA  
+3       Racheal /Stark/                                            {@I12@}  
+4        Lyanna /Stark/                                      {@I11@,@I28@}  
+5      Martha /Martell/                                      {@I19@,@I22@}  
+6   Rhaella /Targaryen/                          {@I10@,@I20@,@I26@,@I27@}  
+7        Monica /Stark/                                                 NA  
+8       Talisa /Maegyr/                                                 NA  
+9          Arya /Stark/                                                 NA  
+10  Rhaenys /Targaryen/                                                 NA  
+11    Felicity /Knight/                                                 NA  
+12   Tamara /Targaryen/                                                 NA  
+13   Tamara /Targaryen/                                                 NA  
+ERROR: US22: Duplicate IDs found in the GEDCOM
+ERROR: US13: @I3@,@I31@,@I5@,@I7@,@I9@,@I29@ from @F1@ have invalid spacing
+ERROR: US13: @I13@,@I30@,@I15@,@I16@,@I17@,@I18@,@I34@,@I35@,@I36@,@I37@,@I38@ from @F2@ have invalid spacing
+ERROR: US13: @I20@,@I26@,@I27@ from @F7@ have invalid spacing
+ERROR: US14:  @F2@ has 11 siblings from which 5 have same birth day
+ERROR: US19: IDs- @I17@,@I16@  are First cousins and married!
+US30 : List of living married is : @I6@ @I7@ @I8@ @I11@ @I12@ @I16@ @I17@ @I23@ @I27@ 
+Error : US20 IDs-@I10@,@I9@ are aunts and uncles and should not be married
+ERROR:  US16: Ramsay (US-03) does not have the same family name Targaryen
+ERROR:  US21: Wife Martha Tally is not female
+ERROR: US07: Pranit Stark who is dead does not have valid age
+ERROR: US07: Samantha Stark who is alive has birthdate less than 150 years from now
+ERROR: US36: Pranit Stark died in the last 30 days
+ERROR: US09: @I29@ is born after the death of his mother @I2@
+ERROR: US09: @I28@ is born after the death of his mother @I9@
+ERROR: US09: @I11@ is born after the death of his mother @I21@
+ERROR: US09: @I28@ is born after the death of his mother @I21@
+ERROR: US18: @I17@ and @I16@ who are married are siblings
+ERROR:  US25: The family id @F3@ has no child
+ERROR:  US25: The family id @F4@ has no child
+ERROR:  US25: The family id @F5@ has no child
+ERROR:  US25: The family id @F6@ has no child
+ERROR:  US25: The family id @F7@ has no child
+ERROR:  US25: The family id @F8@ has no child
+ERROR:  US25: The family id @F9@ has no child
+ERROR:  US25: The family id @F10@ has no child
+ERROR:  US25: The family id @F11@ has no child
+ERROR:  US25: The family id @F12@ has no child
+ERROR:  US25: The family id @F13@ has no child
+ERROR:  US25: The family id @F14@ has no child
+US29: Richard Stark is dead
+US29: Lyarra Stark is dead
+US29: Eddard Stark is dead
+US29: Catelyn Tully is dead
+US29: Brandon Stark is dead
+US29: Lyanna Stark is dead
+US29: Rhaegar Targaryen is dead
+US29: Robb Stark is dead
+US29: Talisa Maegyr is dead
+US29: Rickon Stark is dead
+US29: Rhaenys Targaryen is dead
+US29: Viserys Targaryen is dead
+US29: Martha Martell is dead
+US29: Aegon Targaryen is dead
+US29: Aerys Targaryen is dead
+US29: Rhaella Targaryen is dead
+US29: Ramsay US03 Snow is dead
+US29: Pranit Stark is dead
+US29: Tamara Targaryen is dead
+US29: Jonnah Targaryen is dead
+ERROR: US10:  @I3@  is under 14 years of age when he was married
+ERROR: US10:  @I11@  is under 14 years of age when he was married
+ERROR: US10:  @I17@  is under 14 years of age when he was married
+ERROR: US10:  @I22@  is under 14 years of age when he was married
+ERROR: US10:  @I4@  is under 14 years of age when she was married
+ERROR: US10:  @I19@  is under 14 years of age when she was married
+ERROR: US10:  @I23@  is under 14 years of age when she was married
+ERROR: US11: ID- @I32@ has bigamous relationship!
+ERROR: US06:  @I22@  and  @I23@  are divorced after the death of either spouse
+US28-
+FOR FAMILY ID -  @F1@
+Samantha Stark 177
+Benjen Stark 37
+Eddard Stark 35
+Rishi Stark 29
+Brandon Stark 25
+Lyanna Stark 24
+FOR FAMILY ID -  @F2@
+Pranit Stark 206
+Sansa Stark 30
+Arya Stark 28
+Robb Stark 27
+Bran Stark 27
+Rickon Stark 21
+Shreyas Stark 17
+Shreyas Stark 17
+Shreyas Stark 17
+Shreyas Stark 17
+Shreyas Stark 17
+FOR FAMILY ID -  @F5@
+Jon Snow 13
+Ramsay US Snow 1
+FOR FAMILY ID -  @F6@
+Rhaenys Targaryen 6
+Aegon Targaryen 3
+FOR FAMILY ID -  @F7@
+Daenerys Targaryen 37
+Viserys Targaryen 37
+Viserys Targaryen 28
+Rhaegar Targaryen 26
+ERROR: US03: Ramsay (US-03)  Snow has an invalid age since birthday is after death day
+ERROR: US03: Rishi  Stark has an invalid age since birthday is after death day
+ERROR: US02: Martha  Tally  is born after their own marriage which is not possible 
+ERROR: US02: Benjen  Stark  is born after their own marriage which is not possible 
+ERROR: US02: Racheal  Stark  is born after their own marriage which is not possible 
+ERROR: US01: 10 NOV 2045 is after the current date 
+ERROR: US12: Eddard  Stark  or Catelyn  Tully  have a child either more than 60 years younger than mother or more than 80 years younger than father
+ERROR: US12: Richard  Stark  or Lyarra  Stark  have a child either more than 60 years younger than mother or more than 80 years younger than father
+ERROR: US23: Viserys  Targaryen  has birthday on 14 FEB 1980  and appears more than one time
+ERROR: US31: Daenerys  Targaryen is single and alive and has a age of 37  which is more than 30
+ERROR: US31: Samantha  Stark is single and alive and has a age of 177  which is more than 30
+
+Process finished with exit code 0
