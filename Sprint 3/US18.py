@@ -1,7 +1,7 @@
 # Developer: Pranit Kulkarni
 import sqlite3
 
-conn = sqlite3.connect('GEDCOM_DATA_US20.db')
+conn = sqlite3.connect('DATA_Sprint3.db')
 conn.text_factory = str
 
 query = "SELECT HUSBAND_ID,WIFE_ID FROM FAMILY"
