@@ -2,7 +2,7 @@
 import sqlite3
 from datetime import datetime, timedelta
 
-conn = sqlite3.connect('GEDCOM_DATA.db')
+conn = sqlite3.connect('DATA_Sprint3.db')
 conn.text_factory = str
 
 query = "SELECT HUSBAND_ID,WIFE_ID FROM FAMILY"
