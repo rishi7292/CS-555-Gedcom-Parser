@@ -6,9 +6,9 @@ conn.text_factory = str
 
 result = conn.execute("SELECT ID,ALIVE,SPOUSE from INDIVIDUAL")
 data = result.fetchall()
-
+livingMarried = []
 def us30():
-    livingMarried = []
+    
     for indi in data:
         indi_id = indi[0]
         alive = indi[1]
