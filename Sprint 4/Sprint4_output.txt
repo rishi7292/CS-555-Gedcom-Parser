@@ -285,8 +285,7 @@ ERROR: US02: Pranit  Stark  is born after their own marriage which is not possib
 ERROR: US02: Tulip  Stark  is born after their own marriage which is not possible 
 ERROR: US01: 10 NOV 2045 is after the current date 
 ERROR: US01: 2 JAN 2100 is after the current date 
-ERROR: US01:  3 MAR 2099  is after the current date 
-ERROR: US01:  NA  is after the current date 
+ERROR: US01:  3 MAR 2099  is after the current date  
 ERROR: US01:  3 MAY 1998  is after the current date 
 ERROR: US01:  4 DEC 2010  is after the current date 
 ERROR: US12: Eddard  Stark  or Catelyn  Tully  have a child either more than 60 years younger than mother or more than 80 years younger than father
