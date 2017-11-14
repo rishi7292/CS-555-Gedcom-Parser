@@ -295,6 +295,6 @@ ERROR: US23: Viserys  Targaryen  has birthday on 14 FEB 1980  and appears more t
 ERROR: US31: Daenerys  Targaryen is single and alive and has a age of 37  which is more than 30
 ERROR: US31: Samantha  Stark is single and alive and has a age of 177  which is more than 30
 ERROR: US04: Rishi  Stark  and Fiona  Stark  have a Divorce date before their Marriage date
-US39:  Patrick  Stark  and Susan  Stark  have a upcoming marriage anniversary
+ERROR: US39:  Patrick  Stark  and Susan  Stark  have a upcoming marriage anniversary
 
 Process finished with exit code 0
